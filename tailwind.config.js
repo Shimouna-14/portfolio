@@ -15,7 +15,7 @@ export default {
         'beige': '#dcc3ac',
         'brown': '#35241A',
         'black': '#272625',
-        'white': 'F3F0EC'
+        'white': '#F3F0EC'
       },
       screens: {
         "sm":{"max": "545px"},

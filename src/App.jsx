@@ -1,35 +1,38 @@
-import { Chevron } from './assets/chevron.jsx'
+import Presentation from './components/Presentation.jsx'
+import Parcours from './components/Parcours.jsx'
+import Competences from './components/Competences.jsx'
+import Contact from './components/Contact.jsx'
+
 
 function App() {
 
   return (
-    <main className="w-100vw h-full flex justify-center items-center">
-      {/* Border */}
-      <div className="relative h-[430px] w-[340px] border border-black mt-16 rounded-tl-[150px] rounded-tr-[150px] rounded-br-[70px] rounded-bl-[70px] ">
-      </div>
-      {/* Bg Cream */}
-      <div className="absolute h-[400px] w-[310px] bg-light-cream mt-16 rounded-tl-[140px] rounded-tr-[140px] rounded-br-[70px] rounded-bl-[70px] ">
-      </div>
-      {/* Paragraph */}
-      <div className="absolute flex justify-center items-center flex-col mt-48">
-        <h2 className="elsie-swash text-center text-6xl mb-3">NDEBY</h2>
-        <h2 className="elsie-swash text-center text-6xl mb-12">Véronique Chimène</h2>
-        <p className="text-center text-3xl mb-4">Développeuse web</p>
-      </div>
+    <>
+      {/* Presentation */}
+      {/* <Presentation /> */}
 
-      {/* Up Chevron */}
-      {/* <span className='absolute rotate-90'><Chevron /></span> */}
+      {/* Parcours */}
+      {/* <Parcours /> */}
+
+      {/* Competences */}
+      {/* <Competences /> */}
+
+      {/* Contact */}
+      {/* <Contact /> */}
 
       {/* Right Chevron */}
-      <span className='absolute rotate-180 right-0'><Chevron /></span>
+      {/* <span className='absolute rotate-180 right-2 ease-in-out duration-300 hover:right-0 cursor-pointer'><Chevron /></span> */}
 
       {/* Down Chevron */}
-      <span className='absolute -rotate-90 bottom-0'><Chevron /></span>
-      
-      {/* left Chevron */}
-      {/* <span className='absolute'><Chevron /></span> */}
+      {/* <span className='absolute -rotate-90 bottom-2 ease-in-out duration-300 hover:bottom-0 cursor-pointer'><Chevron /></span> */}
 
-    </main>
+      {/* Up Chevron */}
+      {/* <span className='absolute rotate-90 top-28 ease-in-out duration-300 hover:top-[104px] cursor-pointer'><Chevron /></span> */}
+
+      {/* left Chevron */}
+      {/* <span className='absolute left-2 ease-in-out duration-300 hover:left-0 cursor-pointer'><Chevron /></span> */}
+
+    </>
   )
 }
 
