@@ -50,10 +50,6 @@ function Competences() {
                         <p className='text-2xl mt-5'>Illustrator</p>
                     </div>
                 </section>
-            {/* Right Chevron */}
-            <span className='absolute rotate-180 right-2 ease-in-out duration-300 hover:right-0 cursor-pointer'><Chevron /></span>
-            {/* Up Chevron */}
-            <span className='absolute rotate-90 top-28 ease-in-out duration-300 hover:top-[104px] cursor-pointer'><Chevron /></span>
             </section>    
         </>
     );

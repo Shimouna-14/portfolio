@@ -34,15 +34,9 @@ function Contact() {
                     </section>
                 </section>
 
-                <div className='absolute top-[10.5em] sm:top-[9.5em] border-t border-black w-full'></div>
                 {/* Up Chevron */}
                 <span className='absolute rotate-90 top-28 sm:top-24 ease-in-out duration-300 hover:top-[104px] cursor-pointer'><Chevron /></span>
-
-                <div className='absolute left-0 border-r border-black h-full w-16 bg-white z-[4]'></div>
-                {/* left Chevron */}
-                <span className='absolute left-2 ease-in-out duration-300 hover:left-0 cursor-pointer z-[5]'><Chevron /></span>
             </section>
-        
         </>
      );
 }

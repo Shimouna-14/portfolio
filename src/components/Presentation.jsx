@@ -21,10 +21,6 @@ function Presentation() {
             <h2 className="elsie-swash text-center text-6xl mb-10 mx-16 text-col">Véronique Chimène</h2>
             <p className="text-center text-3xl mb-4">Développeuse web</p>
           </div>
-          {/* Right Chevron */}
-          <span className='absolute rotate-180 right-2 ease-in-out duration-300 hover:right-0 cursor-pointer'><Chevron /></span>
-          {/* Down Chevron */}
-          <span className='absolute -rotate-90 bottom-2 ease-in-out duration-300 hover:bottom-0 cursor-pointer'><Chevron /></span>
         </section>
       </section>
     </>
