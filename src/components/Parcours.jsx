@@ -1,4 +1,3 @@
-import { Chevron } from "../assets/chevron";
 import Header from "./Header";
 import { Carousel, IconButton } from "@material-tailwind/react";
 
@@ -6,7 +5,6 @@ function Parcours() {
   return (
     <>
       <Header titre="Parcours" className="text-blue" />
-      {/* <section className="h-full flex justify-center items-center"> */}
       <section className="h-full flex justify-center items-center">
         <section className="w-3/4 m:w-4/5 sm:w-[90%] h-[60%] sm:h-[75%] lg:mt-12 sm:mt-20 ml-16 lg:ml-0">
           <Carousel
@@ -60,29 +58,29 @@ function Parcours() {
               </IconButton>
             )}
           >
-            <section className="flex flex-col justify-center items-center h-full mx-12 ">
-              <div className="bg-blue flex flex-col justify-center items-center rounded-3xl py-5 mb-10 w-[80%] sm:w-full ">
-                <p className="text-3xl sm:text-2xl mb-3 mx-5 text-center">
+            <section className="flex flex-col justify-center items-center h-full mx-12 text-center">
+              <div className="bg-blue flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full">
+                <p className="text-3xl sm:text-2xl mb-3 mx-5">
                   Concepteur d'application web
                 </p>
-                <p className="text-lg">Neuilly-Sur-Seine (92)</p>
+                <p className="text-lg ">
+                  Neuilly-Sur-Seine (92) | Avril 2023 - Février 2024
+                </p>
               </div>
               <div className="flex flex-col justify-center items-center text-xl sm:text-lg mx-10">
-                <p className="mb-2 sm:mb-5 text-center">Création de maquette</p>
-                <p className="mb-2 sm:mb-5 text-center">
+                <p className="mb-2 sm:mb-5">Création de maquette</p>
+                <p className="mb-2 sm:mb-5">
                   Maintenance et assistance sur WordPress
                 </p>
-                <p className="text-center">
-                  Création de site web sur WordPress et en ReactJS
-                </p>
+                <p>Création de site web sur WordPress et en ReactJS</p>
               </div>
             </section>
 
             <section className="flex flex-col justify-center items-center h-full mx-12">
-              <div className="bg-green flex flex-col justify-center items-center rounded-3xl py-5 mb-10 w-[80%] sm:w-full">
+              <div className="bg-green flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full text-center">
                 <p className="text-3xl sm:text-2xl mb-3 mx-5">OpenClassroom</p>
-                <p className="text-lg text-center">
-                  Formation de Développeur Web
+                <p className="text-lg ">
+                  Formation de Développeur Web | Mars 2021 - Juin 2022
                 </p>
               </div>
               <section className="flex flex-col justify-center text-2xl">
@@ -90,38 +88,57 @@ function Parcours() {
                   Projets réalisés pendant la formation :
                 </p>
                 <ul class="list-disc list-inside lg:text-lg text-base">
-                  <li>Transformer une maquette en site web avec HTML & CSS </li>
-                  <li>Dynamiser une page web avec des animations CSS</li>
-                  <li>Optimiser un site web existant</li>
-                  <li>Construire un site e-commerce en JavaScript</li>
                   <li>
-                    Construire une API sécurisée pour une application
-                    d'avisgastronomiques
+                    <a to="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_2_12042021/">
+                      Transformer une maquette en site web avec HTML & CSS
+                    </a>
                   </li>
-                  <li>Créez un réseau social d'entreprise</li>
+
+                  <li>
+                    <a to="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_3_06062021/">Dynamiser une page web avec des animations CSS</a>
+                  </li>
+                  <li>
+                    <a to="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_4_20072021/">Optimiser un site web existant</a>
+                  </li>
+                  <li>
+                    <a to="#">Construire un site e-commerce en JavaScript</a>
+                  </li>
+                  <li>
+                    <a to="#">
+                      Construire une API sécurisée pour une application
+                      d'avisgastronomiques
+                    </a>
+                  </li>
+                  <li>
+                    <a to="#">Créez un réseau social d'entreprise</a>
+                  </li>
                 </ul>
               </section>
             </section>
 
-            <section className="flex flex-col justify-center items-center h-full mx-12 ">
-              <div className="bg-blue flex flex-col justify-center items-center rounded-3xl py-5 mb-10 w-[80%] sm:w-full ">
-                <p className="text-3xl sm:text-2xl mb-3 mx-5 text-center">
+            <section className="flex flex-col justify-center items-center h-full mx-12 text-center">
+              <div className="bg-blue flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full ">
+                <p className="text-3xl sm:text-2xl mb-3 mx-5">
                   Titre profesionnel web
                 </p>
-                <p className="text-lg">Taverny (95)</p>
+                <p className="text-lg">
+                  Taverny (95) | Octobre - Décembre 2020
+                </p>
               </div>
-              <p className="text-center text-2xl sm:text-xl leading-10 mx-5">
+              <p className="text-2xl sm:text-xl leading-10 mx-5">
                 Développer la partie frontend d'une application web et web
                 mobile
               </p>
             </section>
 
-            <section className="flex flex-col justify-center items-center h-full mx-12 ">
-              <div className="bg-green flex flex-col justify-center items-center rounded-3xl py-5 mb-10 w-[80%] sm:w-full">
+            <section className="flex flex-col justify-center items-center h-full mx-12 text-center">
+              <div className="bg-green flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full">
                 <p className="text-3xl sm:text-2xl mb-3">Baccalauréat</p>
-                <p className="text-lg">Sarcelles (95)</p>
+                <p className="text-lg">
+                  Sarcelles (95) | Septembre 2019 - Juin 2020
+                </p>
               </div>
-              <p className="text-center text-2xl sm:text-xl leading-10 mx-5">
+              <p className="text-2xl sm:text-xl leading-10 mx-5">
                 Sciences et Technologies de l'Industrie et du Développement
                 Durable <br />
                 Option Système Informatique et numérique
@@ -132,7 +149,7 @@ function Parcours() {
 
         <div className="absolute left-0 border-r border-black h-full w-16 bg-white z-[3]"></div>
 
-        <div className="absolute bottom-16 border-t border-black w-full"></div>
+        <div className="absolute bottom-16 sm:bottom-14 border-t border-black w-full"></div>
       </section>
     </>
   );

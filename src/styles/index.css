@@ -22,8 +22,8 @@
   width: 100vw;
 }
 
-.opacity >  div {
-  animation: opacity 1000ms;
+.opacity > section > section > div {
+  animation: opacity 2000ms ;
 }
 
 @keyframes opacity{

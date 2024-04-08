@@ -27,7 +27,6 @@ export const CssBtn = styled(Button)({
   backgroundColor: "#d6c9c2",
   color: "#35241A",
   borderRadius: "30px",
-  width: "150px",
   textTransform: "none",
   fontFamily: '"Amiri", serif',
   fontSize: 17,
@@ -40,5 +39,27 @@ export const CssBtn = styled(Button)({
     boxShadow: "none",
     backgroundColor: "#DACEC8",
     borderColor: "#35241A",
-  },
+  }
+});
+
+export const CssBtnSuccess = styled(Button)({
+    boxShadow: "none",
+    backgroundColor: "#DACEC8",
+    borderColor: "#35241A",
+    color: "#35241A",
+    borderRadius: "30px",
+    width: "150px",
+    textTransform: "none",
+    fontFamily: '"Amiri", serif',
+    fontSize: 17,
+    "&:hover": {
+      backgroundColor: "#DACEC8",
+      borderColor: "#35241A",
+      boxShadow: "none",
+    },
+    "&:active": {
+      boxShadow: "none",
+      backgroundColor: "#DACEC8",
+      borderColor: "#35241A",
+    }
 });
