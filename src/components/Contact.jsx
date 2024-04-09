@@ -20,7 +20,7 @@ function Contact() {
     <p style="padding: 12px; border-left: 4px solid #d0d0d0; font-style: italic;">${data.message}</p>
     `;
     Email.send({
-      SecureToken: import.meta.env.VITE_API,
+      SecureToken: import.meta.env.VITE_TOKEN,
       To: import.meta.env.VITE_MAIL,
       From: data.email,
       Subject: `Nouveau mail de ${data.firstName} ${data.lastName} - Portfolio`,
