@@ -6,7 +6,7 @@ function Parcours() {
     <>
       <Header titre="Parcours" className="text-blue" />
       <section className="h-full flex justify-center items-center">
-        <section className="w-3/4 m:w-4/5 sm:w-[90%] h-[60%] sm:h-[75%] lg:mt-12 sm:mt-20 ml-16 lg:ml-0">
+        <section className="w-3/4 m:w-4/5 sm:w-[100%] h-[60%] sm:h-[75%] lg:mt-12 sm:mt-20 m:ml-16 lg:ml-0">
           <Carousel
             navigation={() => <div className="none"></div>}
             prevArrow={({ handlePrev }) => (
@@ -64,7 +64,7 @@ function Parcours() {
                   Concepteur d'application web
                 </p>
                 <p className="text-lg ">
-                  Neuilly-Sur-Seine (92) | Avril 2023 - Février 2024
+                  Neuilly-Sur-Seine (92) <br/> Avril 2023 - Février 2024
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center text-xl sm:text-lg mx-10">
@@ -80,7 +80,7 @@ function Parcours() {
               <div className="bg-green flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full text-center">
                 <p className="text-3xl sm:text-2xl mb-3 mx-5">OpenClassroom</p>
                 <p className="text-lg ">
-                  Formation de Développeur Web | Mars 2021 - Juin 2022
+                  Formation de Développeur Web <br/> Mars 2021 - Juin 2022
                 </p>
               </div>
               <section className="flex flex-col justify-center text-2xl">
@@ -89,28 +89,28 @@ function Parcours() {
                 </p>
                 <ul class="list-disc list-inside lg:text-lg text-base">
                   <li>
-                    <a to="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_2_12042021/">
+                    <a target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_2_12042021/">
                       Transformer une maquette en site web avec HTML & CSS
                     </a>
                   </li>
 
                   <li>
-                    <a to="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_3_06062021/">Dynamiser une page web avec des animations CSS</a>
+                    <a target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_3_06062021/">Dynamiser une page web avec des animations CSS</a>
                   </li>
                   <li>
-                    <a to="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_4_20072021/">Optimiser un site web existant</a>
+                    <a target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_4_20072021/">Optimiser un site web existant</a>
                   </li>
                   <li>
-                    <a to="#">Construire un site e-commerce en JavaScript</a>
+                    <a target="_blank" href="#">Construire un site e-commerce en JavaScript</a>
                   </li>
                   <li>
-                    <a to="#">
+                    <a target="_blank" href="#">
                       Construire une API sécurisée pour une application
                       d'avisgastronomiques
                     </a>
                   </li>
                   <li>
-                    <a to="#">Créez un réseau social d'entreprise</a>
+                    <a target="_blank" href="#">Créez un réseau social d'entreprise</a>
                   </li>
                 </ul>
               </section>
@@ -122,7 +122,7 @@ function Parcours() {
                   Titre profesionnel web
                 </p>
                 <p className="text-lg">
-                  Taverny (95) | Octobre - Décembre 2020
+                  Taverny (95) <br/> Octobre - Décembre 2020
                 </p>
               </div>
               <p className="text-2xl sm:text-xl leading-10 mx-5">
@@ -135,7 +135,7 @@ function Parcours() {
               <div className="bg-green flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full">
                 <p className="text-3xl sm:text-2xl mb-3">Baccalauréat</p>
                 <p className="text-lg">
-                  Sarcelles (95) | Septembre 2019 - Juin 2020
+                  Sarcelles (95) <br/> Septembre 2019 - Juin 2020
                 </p>
               </div>
               <p className="text-2xl sm:text-xl leading-10 mx-5">
@@ -147,7 +147,7 @@ function Parcours() {
           </Carousel>
         </section>
 
-        <div className="absolute left-0 border-r border-black h-full w-16 bg-white z-[3]"></div>
+        <div className="absolute left-0 border-r border-black h-full w-16 bg-white z-[3] sm:hidden"></div>
 
         <div className="absolute bottom-16 sm:bottom-14 border-t border-black w-full"></div>
       </section>
