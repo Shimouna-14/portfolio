@@ -19,13 +19,13 @@ function Contact() {
     <p>Vous avez reçu un nouveau mail provenant de votre portfolio de ${data.firstName} ${data.lastName} (${data.email}):</p>
     <p style="padding: 12px; border-left: 4px solid #d0d0d0; font-style: italic;">${data.message}</p>
     `;
-    Email.send({
+    window.Email.send({
       SecureToken: import.meta.env.VITE_TOKEN,
       To: import.meta.env.VITE_MAIL,
-      From: data.email,
+      From: import.meta.env.VITE_MAIL,
       Subject: `Nouveau mail de ${data.firstName} ${data.lastName} - Portfolio`,
       Body: body,
-    })
+    }).console.error(error);
   };
 
   return (

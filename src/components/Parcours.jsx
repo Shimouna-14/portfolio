@@ -77,14 +77,14 @@ function Parcours() {
             </section>
 
             <section className="flex flex-col justify-center items-center h-full mx-12">
-              <div className="bg-green flex flex-col justify-center items-center rounded-3xl p-5 mb-10 w-[80%] sm:w-full text-center">
+              <div className="bg-green flex flex-col justify-center items-center rounded-3xl p-5 w-[80%] sm:w-full text-center">
                 <p className="text-3xl sm:text-2xl mb-3 mx-5">OpenClassroom</p>
                 <p className="text-lg ">
                   Formation de Développeur Web <br/> Mars 2021 - Juin 2022
                 </p>
               </div>
               <section className="flex flex-col justify-center text-2xl">
-                <p className="mb-2 text-xl">
+                <p className="mb-2 mt-4 text-xl">
                   Projets réalisés pendant la formation :
                 </p>
                 <ul class="list-disc list-inside lg:text-lg text-base">
