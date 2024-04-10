@@ -25,7 +25,7 @@ function Contact() {
       From: import.meta.env.VITE_MAIL,
       Subject: `Nouveau mail de ${data.firstName} ${data.lastName} - Portfolio`,
       Body: body,
-    }).console.error(error);
+    })
   };
 
   return (
