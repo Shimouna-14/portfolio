@@ -84,7 +84,7 @@ function Parcours() {
                 </p>
               </div>
               <section className="flex flex-col justify-center text-2xl">
-                <p className="mb-2 mt-4 text-xl">
+                <p className="my-2 text-xl">
                   Projets réalisés pendant la formation :
                 </p>
                 <ul class="list-disc list-inside lg:text-lg text-base">
