@@ -101,16 +101,16 @@ function Parcours() {
                     <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_4_20072021/">Optimiser un site web existant</a>
                   </li>
                   <li>
-                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="#">Construire un site e-commerce en JavaScript</a>
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60">Construire un site e-commerce en JavaScript</a>
                   </li>
                   <li>
-                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="#">
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60">
                       Construire une API sécurisée pour une application
                       d'avisgastronomiques
                     </a>
                   </li>
                   <li>
-                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="#">Créez un réseau social d'entreprise</a>
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" >Créez un réseau social d'entreprise</a>
                   </li>
                 </ul>
               </section>

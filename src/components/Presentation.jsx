@@ -33,7 +33,7 @@ function Presentation() {
             <h2 className="elsie-swash text-center text-6xl sm:text-5xl mb-3 text-col">NDEBY</h2>
             <h2 className="elsie-swash text-center text-6xl sm:text-5xl mb-9 mx-16 text-col">Véronique Chimène</h2>
             <p className="text-center text-3xl sm:text-2xl mb-4">Développeuse web</p>
-            <CssBtn onClick={downloadFile} className='absolute p-5' >Télécharger mon cv</CssBtn>
+            <CssBtn onClick={downloadFile} className='absolute p-5' >Télécharger mon CV</CssBtn>
           </div>
         </section>
       </section>
