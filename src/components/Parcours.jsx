@@ -149,7 +149,7 @@ function Parcours() {
 
         <div className="absolute left-0 border-r border-black h-full w-16 bg-white z-[3] sm:hidden"></div>
 
-        <div className="absolute bottom-16 sm:bottom-14 border-t border-black w-full"></div>
+        <div className="absolute bottom-16 sm:bottom-14 border-t border-black w-full sm:hidden"></div>
       </section>
     </>
   );

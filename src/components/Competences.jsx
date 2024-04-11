@@ -12,7 +12,7 @@ function Competences() {
   return (
     <>
       <Header titre="Compétences" />
-      <section className="h-full flex flex-col sm:flex-row justify-center sm:justify-around items-center mt-16 text-xl lg:text-2xl">
+      <section className="h-full flex flex-col sm:flex-row justify-center sm:justify-around items-center mt-16 sm:mt-9 text-xl lg:text-2xl">
         <section className="w-4/5 sm:w-auto h-36 sm:h-3/5 flex sm:flex-col justify-around">
           <div className="w-36 h-full sm:h-auto flex flex-col justify-center items-center sm:mb-5">
             <span className="h-full ease-in-out duration-300 hover:scale-125">

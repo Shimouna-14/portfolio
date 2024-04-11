@@ -32,7 +32,7 @@ function Contact() {
     <>
       <Header titre="Contact" />
       <section className="h-full flex justify-center items-center">
-        <section className="w-[65%] sm:w-[80%] mt-40 ml-12 flex flex-col lg:flex-row">
+        <section className="w-[65%] sm:w-[90%] mt-40 ml-12 sm:ml-0 flex flex-col lg:flex-row">
           {/* Bg brown */}
           <section className="lg:w-2/4 p-2 bg-silk border lg:rounded-l-xl m:rounded-t-xl sm:rounded-t-xl border-black flex justify-center items-center">
             <h3 className="elsie-swash text-center lg:text-[4em] text-[2.5em] leading-tight ">
