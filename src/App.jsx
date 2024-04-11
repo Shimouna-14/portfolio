@@ -51,7 +51,7 @@ function App() {
           {/* Down Chevron */}
           <span
             onClick={() => setBottom(!bottom)}
-            className="absolute -rotate-90 -bottom-5 inset-x-2/4 duration-300 ease-in-out hover:-bottom-7 cursor-pointer"
+            className="absolute -rotate-90 bottom-0 inset-x-2/4 duration-300 ease-in-out hover:bottom-7 cursor-pointer"
           >
             <Chevron />
           </span>

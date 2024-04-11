@@ -89,28 +89,28 @@ function Parcours() {
                 </p>
                 <ul class="list-disc list-inside lg:text-lg text-base">
                   <li>
-                    <a target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_2_12042021/">
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_2_12042021/">
                       Transformer une maquette en site web avec HTML & CSS
                     </a>
                   </li>
 
                   <li>
-                    <a target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_3_06062021/">Dynamiser une page web avec des animations CSS</a>
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_3_06062021/">Dynamiser une page web avec des animations CSS</a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_4_20072021/">Optimiser un site web existant</a>
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="https://shimouna-14.github.io/NDEBY_Veronique_Chimene_4_20072021/">Optimiser un site web existant</a>
                   </li>
                   <li>
-                    <a target="_blank" href="#">Construire un site e-commerce en JavaScript</a>
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="#">Construire un site e-commerce en JavaScript</a>
                   </li>
                   <li>
-                    <a target="_blank" href="#">
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="#">
                       Construire une API sécurisée pour une application
                       d'avisgastronomiques
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="#">Créez un réseau social d'entreprise</a>
+                    <a className="transition-all ease-in-out duration-300 hover:text-black/60" target="_blank" href="#">Créez un réseau social d'entreprise</a>
                   </li>
                 </ul>
               </section>
