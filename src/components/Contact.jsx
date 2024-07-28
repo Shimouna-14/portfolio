@@ -1,5 +1,4 @@
 import { CssBtn, CssTextField, CssBtnSuccess } from "../styles/index";
-import Header from "./Header";
 import { useForm } from "react-hook-form";
 import { Alert } from "@material-tailwind/react";
 import { useState } from "react";
@@ -30,8 +29,7 @@ function Contact() {
 
   return (
     <>
-      <Header titre="Contact" />
-      <section className="h-full flex justify-center items-center">
+      <section className="flex justify-center items-center">
         <section className="w-[65%] sm:w-[90%] mt-40 sm:mt-28 ml-12 sm:ml-0 flex flex-col lg:flex-row">
           {/* Bg brown */}
           <section className="lg:w-2/4 p-2 bg-silk border lg:rounded-l-xl m:rounded-t-xl sm:rounded-t-xl border-black flex justify-center items-center">
@@ -59,7 +57,7 @@ function Contact() {
                   })}
                 />
               </div>
-              <div className="w-full lg:mb-7 mb-4 ">
+              <div className="w-full lg:mb-7 mb-4">
                 <CssTextField
                   type="text"
                   label="Prénom"

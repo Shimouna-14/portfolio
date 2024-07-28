@@ -15,16 +15,7 @@
   color: #35241A;
 }
 
-#root {
-  background-color: #F3F0EC;
-  height: 100vh;
-  position: fixed;
-  width: 100vw;
-}
-
-.opacity > section > section > div {
-  animation: opacity 2000ms ;
-}
+body { background-color: #F3F0EC; }
 
 @keyframes opacity{
   from{
