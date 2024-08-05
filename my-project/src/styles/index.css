@@ -15,15 +15,15 @@
   color: #35241A;
 }
 
+.shrikhand {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body { background-color: #F3F0EC; }
 
-@keyframes opacity{
-  from{
-      opacity: 0;
-      transform: translateY(20px);
-  }
-  to{
-      opacity: 1;
-      transform: translateY(0);
-  }
+.scroller {
+  scrollbar-color: #35241A;
+  scrollbar-width: thin;
 }

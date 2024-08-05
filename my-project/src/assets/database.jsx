@@ -23,5 +23,5 @@ export const Database = () => {
         </clipPath>
       </defs>
     </svg>
-  )
-};
+   )
+ };

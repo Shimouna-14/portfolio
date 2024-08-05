@@ -26,5 +26,5 @@ export const Photoshop = () => {
         </clipPath>
       </defs>
     </svg>
-  )
-};
+   )
+ };
